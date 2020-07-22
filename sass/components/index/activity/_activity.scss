@@ -1,0 +1,49 @@
+/*activity*/
+
+.section-activity {
+  margin-bottom: 94px;
+  margin-top: 0px;
+}
+
+.activity {
+  list-style: none;
+  display: flex;
+  padding-left: 0px;
+  margin: 0px;
+}
+
+.activity-item {
+  width: 370px;
+
+  .activity &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.activity-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  position: absolute;
+  top: 87%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0px;
+  cursor: pointer;
+  width: 200px;
+}
+
+.activity-absolute {
+  position: relative;
+
+  &::before {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+    bottom: 0px;
+  }
+}

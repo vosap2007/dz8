@@ -1,0 +1,45 @@
+/* hero */
+
+.overlay {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url(../../img/Header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero {
+  text-align: center;
+  background-color: slategrey;
+  padding-top: 118px;
+  padding-bottom: 118px;
+
+  &-title {
+    color: var(--button-color);
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 42px;
+    letter-spacing: 0.06em;
+    margin: 0px;
+    margin-bottom: 30px;
+  }
+
+  &-button {
+    color: var(--button-color);
+    background-color: var(--link-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-decoration: none;
+
+    border-radius: 4px;
+    padding: 10px 32px;
+    text-align: center;
+  }
+}

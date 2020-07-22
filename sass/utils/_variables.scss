@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+
+  background-color: #ffffff;
+  color: #757575;
+  font-family: Roboto, sans-serif;
+
+  --link-color: #2196f3;
+  --title-color: #212121;
+  --button-color: #ffffff;
+}
+
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
