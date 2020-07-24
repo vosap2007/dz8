@@ -17,6 +17,31 @@
 .team {
   list-style: none;
   text-align: center;
+  padding-left: 0px;
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+}
+
+.team-item {
+  @media (min-width: 768px) {
+    width: calc((100% - 2 * 30px) / 2);
+
+    margin: 15px;
+  }
+
+  @media (min-width: 1200px) {
+    width: calc((100% - 4 * 30px) / 4);
+  }
+
+  &:not(:last-child) {
+    @media (max-width: 767px) {
+      margin-bottom: 30px;
+    }
+  }
 }
 
 .team-item:not(:last-child) {

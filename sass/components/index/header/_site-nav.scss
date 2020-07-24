@@ -114,3 +114,23 @@
   height: 11.2px;
   margin-right: 10px;
 }
+
+.menu-batton {
+  display: inline-flex;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  background-color: transparent;
+
+  & .icon-cross {
+    display: none;
+  }
+
+  &.is-open .icon-cross {
+    display: block;
+  }
+
+  &.is-open .icon-strip {
+    display: none;
+  }
+}
