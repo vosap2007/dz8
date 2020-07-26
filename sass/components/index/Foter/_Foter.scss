@@ -25,10 +25,12 @@
 
   & .logo {
     @media screen and (max-width: 767px) {
-      margin-left: 163px;
+      margin-left: 110px;
     }
     margin-bottom: 20px;
   }
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-address {

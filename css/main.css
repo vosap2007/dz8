@@ -14,7 +14,7 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  /*background-color: rgb(248, 147, 147);*/
+  background-color: #f89393;
 }
 
 @media screen and (min-width: 480px) {
@@ -294,6 +294,10 @@ body {
   padding-top: 60px;
 }
 
+.section-features {
+  margin-bottom: 60px;
+}
+
 .features {
   list-style: none;
   -webkit-box-pack: center;
@@ -440,14 +444,15 @@ body {
   background: #f5f4fa;
 }
 
-.section-team .container {
-  padding-top: 60px;
-}
-
 .section-team .section-title {
   font-size: 28px;
   line-height: 33px;
   margin-bottom: 30px;
+}
+
+.section-team .container {
+  padding-top: 60px;
+  margin-bottom: 60px;
 }
 
 .team {
@@ -561,9 +566,9 @@ body {
 }
 
 /*clients*/
-.section-clients {
-  margin-top: 0px;
-  margin-bottom: 76px;
+.section-clients .container {
+  padding-top: 60px;
+  margin-bottom: 60px;
 }
 
 .clients {
@@ -654,6 +659,12 @@ body {
 
 .footer-mar {
   margin-bottom: 60px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media screen and (min-width: 767px) {
@@ -669,7 +680,7 @@ body {
 
 @media screen and (max-width: 767px) {
   .footer-mar .logo {
-    margin-left: 163px;
+    margin-left: 110px;
   }
 }
 

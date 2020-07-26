@@ -3,15 +3,16 @@
 .section-team {
   background: #f5f4fa;
 
-  & .container {
-    padding-top: 60px;
-  }
-
   & .section-title {
     font-size: 28px;
     line-height: 33px;
     margin-bottom: 30px;
   }
+}
+
+.section-team .container {
+  padding-top: 60px;
+  margin-bottom: 60px;
 }
 
 .team {
