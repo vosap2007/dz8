@@ -9,7 +9,10 @@
   margin-right: auto;
   margin-top: 0px;
   margin-bottom: 34px;
-  justify-content: center;
+
+  @media (min-width: 768px) {
+    justify-content: center;
+  }
 }
 
 .filter-button {
@@ -23,10 +26,12 @@
 
 .filter-button-hover {
   font-weight: 500;
+  font-size: 94%;
   color: #212121;
   line-height: 26px;
   letter-spacing: 0.03em;
   cursor: pointer;
+  padding: 6px 22px;
 
   transition-property: background-color;
   transition-duration: 250ms;

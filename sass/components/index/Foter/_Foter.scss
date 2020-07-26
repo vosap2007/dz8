@@ -3,10 +3,32 @@
 .footer {
   align-items: baseline;
   padding-top: 48px;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .footer-backgraund {
   background: #2f303a;
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
+}
+
+.footer-mar {
+  margin-bottom: 60px;
+  @media screen and (min-width: 767px) {
+    margin-left: 76px;
+    margin-right: 165px;
+  }
+
+  & .logo {
+    @media screen and (max-width: 767px) {
+      margin-left: 163px;
+    }
+    margin-bottom: 20px;
+  }
 }
 
 .footer-address {
@@ -14,6 +36,9 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
 }
 
 .footer-contact {
@@ -28,21 +53,6 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
-}
-
-.footer-address {
-  display: flex;
-  flex-direction: column;
-  font-style: normal;
-}
-
-.footer-mar {
-  margin-right: 69px;
-}
-
-.footer-marrite {
-  margin-right: 94px;
-  width: 206px;
 }
 
 .circle {
@@ -95,18 +105,37 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-
-  margin-left: 370px;
-
+  margin-left: 140px;
+  margin-bottom: 60px;
   color: #ffffff;
 
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+
+  @media screen and (min-width: 767px) {
+    margin-left: 80px;
+  }
 }
 
 .icon-button {
   width: 24px;
   height: 24px;
   margin-left: 10px;
+}
+
+.footer-marrite {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.flex-email {
+  margin-bottom: 20px;
+}
+
+.subscription {
+  text-align: center;
+  @media screen and (min-width: 767px) {
+    margin-left: 166px;
+  }
 }

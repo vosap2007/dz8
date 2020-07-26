@@ -2,18 +2,36 @@
 
 .projects {
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
   padding-left: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+}
+
+.itom {
+  @media (min-width: 768px) {
+    width: calc((100% - 2 * 30px) / 2);
+
+    margin: 15px;
+  }
+
+  @media (min-width: 1200px) {
+    width: calc((100% - 3 * 30px) / 3);
+  }
+
+  &:not(:last-child) {
+    @media (max-width: 767px) {
+      margin-bottom: 30px;
+    }
+  }
 }
 
 .projects .itom {
-  width: 370px;
-  margin-right: 30px;
-  margin-bottom: 30px;
-
   &:nth-child(3n) {
     margin-right: 0;
   }
