@@ -47,11 +47,17 @@ body {
           align-items: center;
 }
 
+@media (min-width: 768px) {
+  .main-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 /*Logo*/
 .logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   text-decoration: none;
 }
 
@@ -69,6 +75,12 @@ body {
   line-height: 1.2;
 }
 
+@media (min-width: 768px) {
+  .logo-studio {
+    margin-right: 67px;
+  }
+}
+
 @media (min-width: 1200px) {
   .logo-studio {
     margin-right: 85px;
@@ -84,6 +96,14 @@ body {
   list-style: none;
   padding-left: 0px;
   margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .site-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .site-nav .link {
@@ -131,9 +151,23 @@ body {
 }
 
 .auth-nav {
-  margin-left: 305px;
   list-style: none;
   padding: 0px;
+}
+
+@media (min-width: 768px) {
+  .auth-nav {
+    margin-left: 84px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .auth-nav {
+    margin-left: 305px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .auth-nav .links:hover,
@@ -155,8 +189,10 @@ body {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.auth-nav .auth-con:not(:last-child) {
-  margin-right: 30px;
+@media (min-width: 1200px) {
+  .auth-nav .auth-con:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .auth-con {
@@ -172,6 +208,15 @@ body {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (min-width: 768px) {
+  .auth-con {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 10px;
+  }
 }
 
 .auth-con:hover {
@@ -197,6 +242,14 @@ body {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (min-width: 768px) {
+  .auth-smart {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .auth-smart:hover {
@@ -678,12 +731,6 @@ body {
   margin-bottom: 20px;
 }
 
-@media screen and (max-width: 767px) {
-  .footer-mar .logo {
-    margin-left: 110px;
-  }
-}
-
 .footer-address {
   color: var(--button-color);
   font-weight: 400;
@@ -761,6 +808,7 @@ body {
 }
 
 .subscription-button {
+  display: block;
   position: absolute;
   width: 200px;
   height: 50px;
