@@ -6,8 +6,6 @@
 }
 
 .main-nav {
-  @media (min-width: 768px) {
-    display: flex;
-  }
+  display: flex;
   align-items: center;
 }

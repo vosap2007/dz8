@@ -12,16 +12,11 @@
 }
 
 .logo-studio {
+  margin-right: 85px;
   color: #000000;
   font-family: Raleway;
   font-size: 26px;
   line-height: 1.2;
-  @media (min-width: 768px) {
-    margin-right: 67px;
-  }
-  @media (min-width: 1200px) {
-    margin-right: 85px;
-  }
 }
 
 .inversia {
