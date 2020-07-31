@@ -12,7 +12,9 @@
 }
 
 .logo-studio {
-  margin-right: 85px;
+  @media screen and (min-width: 768px) {
+    margin-right: 85px;
+  }
   color: #000000;
   font-family: Raleway;
   font-size: 26px;
