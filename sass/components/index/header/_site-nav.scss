@@ -7,7 +7,7 @@
 
   @media screen and (min-width: 768px) {
     display: flex;
-
+    padding-top: 31px;
     margin-bottom: 30px;
   }
   .site-link {
@@ -75,6 +75,11 @@
 
   @media screen and (min-width: 768px) {
     display: flex;
+    flex-wrap: wrap;
+    margin-left: 84px;
+  }
+
+  @media screen and (min-width: 1200px) {
     margin-left: 305px;
   }
 
@@ -176,6 +181,7 @@
 .menu {
   z-index: 1;
   width: 100%;
+
   @media screen and (max-width: 768px) {
     display: none;
     position: absolute;
@@ -195,5 +201,9 @@
     &.is-open {
       display: block;
     }
+  }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
   }
 }

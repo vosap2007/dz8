@@ -1,7 +1,7 @@
 /*Logo*/
 
 .logo {
-  display: block;
+  display: flex;
   text-decoration: none;
 }
 .logo-web {
@@ -13,7 +13,7 @@
 
 .logo-studio {
   @media screen and (min-width: 768px) {
-    margin-right: 85px;
+    margin-right: 81px;
   }
   color: #000000;
   font-family: Raleway;

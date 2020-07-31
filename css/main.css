@@ -63,7 +63,9 @@ img {
 
 /*Logo*/
 .logo {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   text-decoration: none;
 }
 
@@ -83,7 +85,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .logo-studio {
-    margin-right: 85px;
+    margin-right: 81px;
   }
 }
 
@@ -103,6 +105,7 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding-top: 31px;
     margin-bottom: 30px;
   }
 }
@@ -176,6 +179,14 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-left: 84px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .auth-nav {
     margin-left: 305px;
   }
 }
@@ -321,6 +332,14 @@ img {
   }
   .menu.is-open {
     display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
