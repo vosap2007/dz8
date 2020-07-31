@@ -872,7 +872,6 @@ img {
 }
 
 .subscription-button {
-  margin-left: 28%;
   width: 200px;
   height: 50px;
   padding: 10px 29px;
@@ -921,6 +920,15 @@ img {
   .flex-email {
     margin-bottom: 0px;
   }
+}
+
+.submit-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .pro {
@@ -1364,10 +1372,18 @@ textarea {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  margin-left: 124px;
 }
 
 .link-form {
   color: #2196f3;
+}
+
+.form-but {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=main.css.map */

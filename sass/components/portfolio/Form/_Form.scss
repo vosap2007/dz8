@@ -163,9 +163,13 @@ textarea {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  margin-left: 124px;
 }
 
 .link-form {
   color: #2196f3;
+}
+
+.form-but {
+  display: flex;
+  justify-content: center;
 }

@@ -118,7 +118,6 @@
 }
 
 .subscription-button {
-  margin-left: 28%;
   @media screen and (min-width: 768px) {
     position: absolute;
     margin-left: 370px;
@@ -159,4 +158,9 @@
   @media screen and (min-width: 768px) {
     margin-bottom: 0px;
   }
+}
+
+.submit-button {
+  display: flex;
+  justify-content: center;
 }
