@@ -3,8 +3,9 @@
 .filter {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   padding-left: 0px;
-  width: 610px;
+
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
@@ -12,12 +13,14 @@
 
   @media (min-width: 768px) {
     justify-content: center;
+    width: 610px;
   }
 }
 
 .filter-button {
   color: var(--title-color);
   background: #f5f4fa;
+  margin-bottom: 15px;
 
   .filter &:not(:last-child) {
     margin-right: 8px;

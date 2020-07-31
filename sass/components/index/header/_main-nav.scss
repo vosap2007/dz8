@@ -1,7 +1,10 @@
 /*main-nav*/
 
 .header-portfolio {
-  margin-bottom: 93px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 93px;
+  }
+  margin-bottom: 60px;
   border-bottom: 1px solid #ececec;
 }
 

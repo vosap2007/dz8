@@ -18,52 +18,55 @@
   <body>
     <!--Шапка сайта-->
     <header class="header-portfolio">
-      <nav class="container main-nav">
-        <a href="./" class="logo">
-          <span class="logo-web">Web </span>
-          <span class="logo-studio">Studio</span>
-        </a>
+      <div class="container">
+        <nav class="container main-nav">
+          <a href="./" class="logo">
+            <span class="logo-web">Web </span>
+            <span class="logo-studio">Studio</span>
+          </a>
+          <div class="menu is-open" data-menu>
+            <ul class="site-nav">
+              <li class="site-link">
+                <a href="./" class="link">Студия</a>
+              </li>
+              <li class="site-link">
+                <a href="./portfolio.html" class="link current">Портфолио</a>
+              </li>
+              <li class="site-link"><a href="" class="link">Контакты</a></li>
+            </ul>
 
-        <ul class="site-nav">
-          <li class="site-link">
-            <a href="./" class="link">Студия</a>
-          </li>
-          <li class="site-link">
-            <a href="./portfolio.html" class="link current">Портфолио</a>
-          </li>
-          <li class="site-link"><a href="" class="link">Контакты</a></li>
-        </ul>
+            <ul class="auth-nav">
+              <li class="auth-con">
+                <svg class="envelope">
+                  <use href="./img/symbol-defs.svg#icon-envelope"></use>
+                </svg>
+                <a href="mailto:info@devstudio.com" class="links"
+                  >info@devstudio.com</a
+                >
+              </li>
 
-        <ul class="auth-nav">
-          <li class="auth-con">
-            <svg class="envelope">
-              <use href="./img/symbol-defs.svg#icon-envelope"></use>
+              <li class="auth-smart">
+                <svg class="smart">
+                  <use href="./img/symbol-defs.svg#icon-smartphone"></use>
+                </svg>
+                <a href="tel:+380961111111" class="links">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </div>
+          <button type="button" class="menu-batton is-open" data-menu-button>
+            <svg width="40" height="40">
+              <use
+                class="icon-cross"
+                href="./img/symbol-defs.svg#icon-cross"
+              ></use>
+              <use
+                class="icon-strip"
+                href="./img/symbol-defs.svg#icon-strip"
+              ></use>
             </svg>
-            <a href="mailto:info@devstudio.com" class="links"
-              >info@devstudio.com</a
-            >
-          </li>
-
-          <li class="auth-smart">
-            <svg class="smart">
-              <use href="./img/symbol-defs.svg#icon-smartphone"></use>
-            </svg>
-            <a href="tel:+380961111111" class="links">+38 096 111 11 11</a>
-          </li>
-        </ul>
-        <button type="button" class="menu-batton is-open" data-menu-button>
-          <svg width="40" height="40">
-            <use
-              class="icon-cross"
-              href="./img/symbol-defs.svg#icon-cross"
-            ></use>
-            <use
-              class="icon-strip"
-              href="./img/symbol-defs.svg#icon-strip"
-            ></use>
-          </svg>
-        </button>
-      </nav>
+          </button>
+        </nav>
+      </div>
     </header>
 
     <!--Body-->
@@ -298,6 +301,26 @@
               </a>
             </li>
           </ul>
+        </div>
+
+        <div class="subscription">
+          <p class="text-subscription">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
+          <form class="subscription-border">
+            <div class="flex">
+              <input
+                type="email"
+                name="email"
+                placeholder="E-mail"
+                class="flex-email"
+              />
+              <button class="subscription-button" type="submit">
+                Подписаться
+                <svg class="icon-button">
+                  <use href="./img/symbol-defs.svg#icon-icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
