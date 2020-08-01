@@ -12,8 +12,8 @@
 }
 
 .logo-studio {
-  @media screen and (min-width: 768px) {
-    margin-right: 81px;
+  @media screen and (min-width: 1200px) {
+    margin-right: 4px;
   }
   color: #000000;
   font-family: Raleway;
@@ -23,4 +23,11 @@
 
 .inversia {
   color: #fff;
+}
+.footer-mar .logo {
+  justify-content: center;
+
+  @media screen and (min-width: 1200px) {
+    justify-content: flex-start;
+  }
 }

@@ -9,6 +9,7 @@
     display: flex;
     padding-top: 31px;
     margin-bottom: 30px;
+    margin-left: 81px;
   }
   .site-link {
     @media screen and (max-width: 768px) {
@@ -81,6 +82,7 @@
 
   @media screen and (min-width: 1200px) {
     margin-left: 305px;
+    flex-wrap: nowrap;
   }
 
   .links:hover,
@@ -116,6 +118,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0px;
   }
 
   transition-property: color;
@@ -179,13 +185,12 @@
 }
 
 .menu {
-  z-index: 1;
   width: 100%;
 
   @media screen and (max-width: 768px) {
     display: none;
     position: absolute;
-
+    z-index: 1;
     height: 405px;
     left: 0px;
     top: 43px;

@@ -1,13 +1,17 @@
 .footer {
   align-items: baseline;
-  @media screen and (min-width: 768px) {
-    padding-top: 48px;
-  }
-
+  padding-top: 60px;
+  padding-bottom: 60px;
   text-align: center;
 
   @media screen and (min-width: 768px) {
     display: flex;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 48px;
+    text-align: left;
   }
 }
 
@@ -53,16 +57,26 @@
 
 .footer-mar {
   @media screen and (min-width: 768px) {
+    margin-right: 165px;
+    margin-left: 61px;
+  }
+
+  @media screen and (min-width: 1200px) {
     margin-right: 69px;
+    margin-left: 0px;
   }
 }
 
 .footer-marrite {
   margin-bottom: 60px;
+
   @media screen and (min-width: 768px) {
-    margin-bottom: 0px;
     margin-right: 94px;
     width: 206px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0px;
   }
 }
 
@@ -99,6 +113,14 @@
   }
 }
 
+.subscription {
+  margin: auto;
+
+  @media screen and (min-width: 1200px) {
+    margin: 0px;
+  }
+}
+
 .text-subscription {
   font-weight: bold;
   font-size: 14px;
@@ -119,8 +141,14 @@
 
 .subscription-button {
   @media screen and (min-width: 768px) {
+    margin-top: 20px;
+  }
+
+  @media screen and (min-width: 1200px) {
     position: absolute;
-    margin-left: 370px;
+    margin-left: 120px;
+    margin-top: 0px;
+    position: absolute;
   }
 
   width: 200px;
@@ -148,7 +176,7 @@
 }
 
 .flex {
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1200px) {
     display: flex;
   }
 }
